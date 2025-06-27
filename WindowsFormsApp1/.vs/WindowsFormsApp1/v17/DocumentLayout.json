@@ -3,8 +3,55 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|WindowsFormsApp1.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\tenats\\frmaddnewtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:tenats\\frmaddnewtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|WindowsFormsApp1.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\tenats\\frmaddnewtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|WindowsFormsApp1.csproj|solutionrelative:tenats\\frmaddnewtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD5B136C-372D-404F-88D1-23A6E63AA57F}|..\\DataAcess\\DataAcess.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\dataacess\\clscountrydl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C46C9D-83AE-4EF4-B000-41F3B65F5A90}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\bussinesslayer\\countrybl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C46C9D-83AE-4EF4-B000-41F3B65F5A90}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\bussinesslayer\\clstenantbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\global classes\\clsvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:global classes\\clsvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\global classes\\clsformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:global classes\\clsformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\global classes\\clsutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:global classes\\clsutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\global classes\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:global classes\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD5B136C-372D-404F-88D1-23A6E63AA57F}|..\\DataAcess\\DataAcess.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\dataacess\\clstenantdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD5B136C-372D-404F-88D1-23A6E63AA57F}|..\\DataAcess\\DataAcess.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\dataacess\\clsdatabasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|WindowsFormsApp1.csproj|C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|WindowsFormsApp1.csproj|C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +66,179 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmAddNewTenant.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmAddNewTenant.cs",
+              "RelativeDocumentMoniker": "Tenats\\frmAddNewTenant.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmAddNewTenant.cs",
+              "RelativeToolTip": "Tenats\\frmAddNewTenant.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T18:19:29.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmAddNewTenant.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmAddNewTenant.cs",
+              "RelativeDocumentMoniker": "Tenats\\frmAddNewTenant.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmAddNewTenant.cs [Design]",
+              "RelativeToolTip": "Tenats\\frmAddNewTenant.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:18:21.166Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "clsFormat.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsFormat.cs",
+              "RelativeDocumentMoniker": "Global Classes\\clsFormat.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsFormat.cs",
+              "RelativeToolTip": "Global Classes\\clsFormat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T18:11:47.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "clsUtil.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsUtil.cs",
+              "RelativeDocumentMoniker": "Global Classes\\clsUtil.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsUtil.cs",
+              "RelativeToolTip": "Global Classes\\clsUtil.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T18:12:17.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsTenantBL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\BussinessLayer\\clsTenantBL.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\clsTenantBL.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\BussinessLayer\\clsTenantBL.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\clsTenantBL.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAcwKcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T15:56:01.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CountryBL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\BussinessLayer\\CountryBL.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\CountryBL.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\BussinessLayer\\CountryBL.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\CountryBL.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAWwDUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T15:54:49.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsCountryDL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsCountryDL.cs",
+              "RelativeDocumentMoniker": "..\\DataAcess\\clsCountryDL.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsCountryDL.cs",
+              "RelativeToolTip": "..\\DataAcess\\clsCountryDL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T16:47:44.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T14:41:35.831Z",
+              "WhenOpened": "2025-06-27T16:42:23.293Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "clsValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsValidation.cs",
+              "RelativeDocumentMoniker": "Global Classes\\clsValidation.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsValidation.cs",
+              "RelativeToolTip": "Global Classes\\clsValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T18:12:09.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "clsGlobal.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsGlobal.cs",
+              "RelativeDocumentMoniker": "Global Classes\\clsGlobal.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsGlobal.cs",
+              "RelativeToolTip": "Global Classes\\clsGlobal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T18:11:59.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "clsDataBaseSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsDataBaseSettings.cs",
+              "RelativeDocumentMoniker": "..\\DataAcess\\clsDataBaseSettings.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsDataBaseSettings.cs",
+              "RelativeToolTip": "..\\DataAcess\\clsDataBaseSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T16:06:34.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "clsTenantDL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsTenantDL.cs",
+              "RelativeDocumentMoniker": "..\\DataAcess\\clsTenantDL.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsTenantDL.cs",
+              "RelativeToolTip": "..\\DataAcess\\clsTenantDL.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwv34AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T15:54:27.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAqwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T13:18:02.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:41:35.831Z"
             }
           ]
         }

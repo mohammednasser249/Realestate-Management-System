@@ -1,0 +1,16 @@
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\bin\Debug\BussinessLayer.dll
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\bin\Debug\DataAcess.dll
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\bin\Debug\BussinessLayer.pdb
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\bin\Debug\DataAcess.pdb
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\Presentation Layer.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Tenats.frmAddNewTenant.resources
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\Presentation Layer.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\Presentation Layer.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\Presenta.B0A29D85.Up2Date
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

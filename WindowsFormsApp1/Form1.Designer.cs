@@ -28,69 +28,155 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnDashboard = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addTenantsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.addRentalContractsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.renewContractToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewRentHistoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.duesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.buildingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewListOfAllBuildingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            this.addNewBuildingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // menuStrip1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.panel1.Controls.Add(this.btnDashboard);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(193, 693);
-            this.panel1.TabIndex = 0;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.testToolStripMenuItem,
+            this.testToolStripMenuItem1,
+            this.testToolStripMenuItem2,
+            this.testToolStripMenuItem3,
+            this.buildingsToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1210, 38);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // panel2
+            // testToolStripMenuItem
             // 
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(193, 144);
-            this.panel2.TabIndex = 0;
+            this.testToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.testToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("testToolStripMenuItem.Image")));
+            this.testToolStripMenuItem.Name = "testToolStripMenuItem";
+            this.testToolStripMenuItem.Size = new System.Drawing.Size(152, 34);
+            this.testToolStripMenuItem.Text = "Dashboard";
+            this.testToolStripMenuItem.Click += new System.EventHandler(this.testToolStripMenuItem_Click);
             // 
-            // pictureBox1
+            // testToolStripMenuItem1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(27, 13);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(130, 82);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.testToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.viewToolStripMenuItem,
+            this.addTenantsToolStripMenuItem});
+            this.testToolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 13F);
+            this.testToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("testToolStripMenuItem1.Image")));
+            this.testToolStripMenuItem1.Name = "testToolStripMenuItem1";
+            this.testToolStripMenuItem1.Size = new System.Drawing.Size(120, 34);
+            this.testToolStripMenuItem1.Text = "Tenatns";
             // 
-            // label1
+            // viewToolStripMenuItem
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(26)))), ((int)(((byte)(249)))));
-            this.label1.Location = new System.Drawing.Point(42, 109);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 22);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "UserName";
+            this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(224, 34);
+            this.viewToolStripMenuItem.Text = "View ";
             // 
-            // btnDashboard
+            // addTenantsToolStripMenuItem
             // 
-            this.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDashboard.FlatAppearance.BorderSize = 0;
-            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDashboard.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(26)))), ((int)(((byte)(249)))));
-            this.btnDashboard.Location = new System.Drawing.Point(0, 144);
-            this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(193, 46);
-            this.btnDashboard.TabIndex = 1;
-            this.btnDashboard.Text = "button1";
-            this.btnDashboard.UseVisualStyleBackColor = true;
+            this.addTenantsToolStripMenuItem.Name = "addTenantsToolStripMenuItem";
+            this.addTenantsToolStripMenuItem.Size = new System.Drawing.Size(224, 34);
+            this.addTenantsToolStripMenuItem.Text = "Add tenants";
+            this.addTenantsToolStripMenuItem.Click += new System.EventHandler(this.addTenantsToolStripMenuItem_Click);
+            // 
+            // testToolStripMenuItem2
+            // 
+            this.testToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.viewToolStripMenuItem1,
+            this.addRentalContractsToolStripMenuItem,
+            this.renewContractToolStripMenuItem});
+            this.testToolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI", 13F);
+            this.testToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("testToolStripMenuItem2.Image")));
+            this.testToolStripMenuItem2.Name = "testToolStripMenuItem2";
+            this.testToolStripMenuItem2.Size = new System.Drawing.Size(138, 34);
+            this.testToolStripMenuItem2.Text = "Contracts";
+            // 
+            // viewToolStripMenuItem1
+            // 
+            this.viewToolStripMenuItem1.Name = "viewToolStripMenuItem1";
+            this.viewToolStripMenuItem1.Size = new System.Drawing.Size(294, 34);
+            this.viewToolStripMenuItem1.Text = "View ";
+            // 
+            // addRentalContractsToolStripMenuItem
+            // 
+            this.addRentalContractsToolStripMenuItem.Name = "addRentalContractsToolStripMenuItem";
+            this.addRentalContractsToolStripMenuItem.Size = new System.Drawing.Size(294, 34);
+            this.addRentalContractsToolStripMenuItem.Text = "Add rental contracts";
+            // 
+            // renewContractToolStripMenuItem
+            // 
+            this.renewContractToolStripMenuItem.Name = "renewContractToolStripMenuItem";
+            this.renewContractToolStripMenuItem.Size = new System.Drawing.Size(294, 34);
+            this.renewContractToolStripMenuItem.Text = "Renew Contract";
+            // 
+            // testToolStripMenuItem3
+            // 
+            this.testToolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.viewRentHistoryToolStripMenuItem,
+            this.duesToolStripMenuItem});
+            this.testToolStripMenuItem3.Font = new System.Drawing.Font("Segoe UI", 13F);
+            this.testToolStripMenuItem3.Image = ((System.Drawing.Image)(resources.GetObject("testToolStripMenuItem3.Image")));
+            this.testToolStripMenuItem3.Name = "testToolStripMenuItem3";
+            this.testToolStripMenuItem3.Size = new System.Drawing.Size(139, 34);
+            this.testToolStripMenuItem3.Text = "Payments";
+            // 
+            // viewRentHistoryToolStripMenuItem
+            // 
+            this.viewRentHistoryToolStripMenuItem.Name = "viewRentHistoryToolStripMenuItem";
+            this.viewRentHistoryToolStripMenuItem.Size = new System.Drawing.Size(263, 34);
+            this.viewRentHistoryToolStripMenuItem.Text = "View rent history";
+            // 
+            // duesToolStripMenuItem
+            // 
+            this.duesToolStripMenuItem.Name = "duesToolStripMenuItem";
+            this.duesToolStripMenuItem.Size = new System.Drawing.Size(263, 34);
+            this.duesToolStripMenuItem.Text = "dues";
+            // 
+            // buildingsToolStripMenuItem
+            // 
+            this.buildingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.viewListOfAllBuildingsToolStripMenuItem,
+            this.toolStripMenuItem1,
+            this.addNewBuildingToolStripMenuItem});
+            this.buildingsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 13F);
+            this.buildingsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("buildingsToolStripMenuItem.Image")));
+            this.buildingsToolStripMenuItem.Name = "buildingsToolStripMenuItem";
+            this.buildingsToolStripMenuItem.Size = new System.Drawing.Size(134, 34);
+            this.buildingsToolStripMenuItem.Text = "Buildings";
+            // 
+            // viewListOfAllBuildingsToolStripMenuItem
+            // 
+            this.viewListOfAllBuildingsToolStripMenuItem.Name = "viewListOfAllBuildingsToolStripMenuItem";
+            this.viewListOfAllBuildingsToolStripMenuItem.Size = new System.Drawing.Size(325, 34);
+            this.viewListOfAllBuildingsToolStripMenuItem.Text = "View list of all buildings";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(322, 6);
+            // 
+            // addNewBuildingToolStripMenuItem
+            // 
+            this.addNewBuildingToolStripMenuItem.Name = "addNewBuildingToolStripMenuItem";
+            this.addNewBuildingToolStripMenuItem.Size = new System.Drawing.Size(325, 34);
+            this.addNewBuildingToolStripMenuItem.Text = "Add new building";
             // 
             // Form1
             // 
@@ -98,25 +184,37 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(1210, 693);
-            this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnDashboard;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem buildingsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem addTenantsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewListOfAllBuildingsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem addNewBuildingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem addRentalContractsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewRentHistoryToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem duesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem renewContractToolStripMenuItem;
     }
 }
 

@@ -1,0 +1,6 @@
+C:\Users\Asus\Desktop\Projects\Realestate Management System\DataAcess\bin\Debug\DataAcess.dll
+C:\Users\Asus\Desktop\Projects\Realestate Management System\DataAcess\bin\Debug\DataAcess.pdb
+C:\Users\Asus\Desktop\Projects\Realestate Management System\DataAcess\obj\Debug\DataAcess.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Projects\Realestate Management System\DataAcess\obj\Debug\DataAcess.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Projects\Realestate Management System\DataAcess\obj\Debug\DataAcess.dll
+C:\Users\Asus\Desktop\Projects\Realestate Management System\DataAcess\obj\Debug\DataAcess.pdb

@@ -1,0 +1,9 @@
+C:\Users\Asus\Desktop\Projects\Realestate Management System\BussinessLayer\bin\Debug\BussinessLayer.dll
+C:\Users\Asus\Desktop\Projects\Realestate Management System\BussinessLayer\bin\Debug\BussinessLayer.pdb
+C:\Users\Asus\Desktop\Projects\Realestate Management System\BussinessLayer\bin\Debug\DataAcess.dll
+C:\Users\Asus\Desktop\Projects\Realestate Management System\BussinessLayer\bin\Debug\DataAcess.pdb
+C:\Users\Asus\Desktop\Projects\Realestate Management System\BussinessLayer\obj\Debug\BussinessLayer.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Projects\Realestate Management System\BussinessLayer\obj\Debug\BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Projects\Realestate Management System\BussinessLayer\obj\Debug\Bussines.E1038C4E.Up2Date
+C:\Users\Asus\Desktop\Projects\Realestate Management System\BussinessLayer\obj\Debug\BussinessLayer.dll
+C:\Users\Asus\Desktop\Projects\Realestate Management System\BussinessLayer\obj\Debug\BussinessLayer.pdb

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.Tenats;
 
 namespace WindowsFormsApp1
 {
@@ -15,6 +16,26 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void testToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void addTenantsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAddNewTenant frm = new frmAddNewTenant();
+            frm.ShowDialog();
         }
     }
 }
