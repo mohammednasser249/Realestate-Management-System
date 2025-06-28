@@ -64,17 +64,35 @@
     <Compile Include="Tenats\frmAddNewTenant.Designer.cs">
       <DependentUpon>frmAddNewTenant.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tenats\frmFindPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tenats\frmFindPerson.Designer.cs">
+      <DependentUpon>frmFindPerson.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tenats\frmManageTenants.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Tenats\frmManageTenants.Designer.cs">
       <DependentUpon>frmManageTenants.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tenats\frmShowTenatDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tenats\frmShowTenatDetails.Designer.cs">
+      <DependentUpon>frmShowTenatDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tenats\UC_Tenant.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Tenats\UC_Tenant.Designer.cs">
       <DependentUpon>UC_Tenant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tenats\UC_TenantCardWithFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tenats\UC_TenantCardWithFilter.Designer.cs">
+      <DependentUpon>UC_TenantCardWithFilter.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -92,11 +110,20 @@
     <EmbeddedResource Include="Tenats\frmAddNewTenant.resx">
       <DependentUpon>frmAddNewTenant.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Tenats\frmFindPerson.resx">
+      <DependentUpon>frmFindPerson.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tenats\frmManageTenants.resx">
       <DependentUpon>frmManageTenants.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Tenats\frmShowTenatDetails.resx">
+      <DependentUpon>frmShowTenatDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tenats\UC_Tenant.resx">
       <DependentUpon>UC_Tenant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tenats\UC_TenantCardWithFilter.resx">
+      <DependentUpon>UC_TenantCardWithFilter.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

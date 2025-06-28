@@ -127,27 +127,8 @@ namespace BussinessLayer
 
             if (found)
             {
-                return new clsTenantBL
-                {
-                    TenantID = TenantID,
-                    FirstName = FirstName,
-                    SecondName = SecondName,
-                    ThirdName = ThirdName,
-                    LastName = LastName,
-                    EmiratesID = EmiratesID,
-                    EmiratesIDIssueDate = EmiratesIDIssueDate,
-                    EmiratesIDExpDate = EmiratesIDExpDate,
-                    PassportNumber = PassportNumber,
-                    PassPortIssueDate = PassPortIssueDate,
-                    PassportExpDate = PassportExpDate,
-                    Email = Email,
-                    Phone = Phone,
-                    Gender = Gender,
-                    DateOfBirth = DateOfBirth,
-                    ImagePath = ImagePath,
-                    CountryID = CountryID
-                };
-            }
+                return new clsTenantBL(TenantID, FirstName, SecondName, ThirdName, LastName, EmiratesID, EmiratesIDIssueDate, EmiratesIDExpDate, PassportNumber, PassPortIssueDate, PassportExpDate, Email, Phone, Gender, DateOfBirth, ImagePath, CountryID);
+             }
             else
             {
                 return null;

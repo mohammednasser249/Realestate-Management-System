@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using BussinessLayer;
 using WindowsFormsApp1.Properties;
 using System.IO;
+using WindowsFormsApp1.Global_Classes;
 
 namespace WindowsFormsApp1.Tenats
 {
@@ -37,6 +38,7 @@ namespace WindowsFormsApp1.Tenats
                 MessageBox.Show($"No Person with PersonID = {TenantID} ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            _FillTenantInfo();
 
         }
 
@@ -54,8 +56,7 @@ namespace WindowsFormsApp1.Tenats
             {
                 if (File.Exists(ImagePath))
                     pictureBox1.ImageLocation = ImagePath;
-                else
-                    MessageBox.Show($"No Person with Tenant ID {_Tenant.TenantID} ","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+               
             }
         }
     
@@ -65,13 +66,14 @@ namespace WindowsFormsApp1.Tenats
             _TenantId = _Tenant.TenantID;
             lbFullName.Text =_Tenant.FirstName +" "+_Tenant.SecondName+" "+_Tenant.ThirdName +" " + _Tenant.LastName;
             lbEmiratesID.Text= _Tenant.EmiratesID;
-            lbEIDissuedate.Text = _Tenant.EmiratesIDIssueDate.ToString();
-            lbEIDExpDate.Text=_Tenant.EmiratesIDExpDate.ToString();
+            lbEIDissuedate.Text = clsFormat.DateToShort(_Tenant.EmiratesIDIssueDate);
+            lbEIDExpDate.Text= clsFormat.DateToShort(_Tenant.EmiratesIDExpDate);
             lbPassportNo.Text = _Tenant.PassportNumber.ToString();
-            lbPIssueDate.Text=_Tenant.PassPortIssueDate.ToString();
-            lbPExpDate.Text=_Tenant.PassportExpDate.ToString();
+            lbPIssueDate.Text = clsFormat.DateToShort(_Tenant.PassPortIssueDate);
+            lbPExpDate.Text = clsFormat.DateToShort(_Tenant.PassportExpDate);
             lbEmail.Text = _Tenant.Email;
             lbPhone.Text = _Tenant.Phone;
+            lbDOB.Text= clsFormat.DateToShort(_Tenant.DateOfBirth);
             if (_Tenant.Gender == 1)
                 lbGender.Text = "Male";
             else

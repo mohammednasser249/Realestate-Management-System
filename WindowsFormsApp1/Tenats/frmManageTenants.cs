@@ -40,5 +40,11 @@ namespace WindowsFormsApp1.Tenats
             frmAddNewTenant frm = new frmAddNewTenant((int)dataGridView1.CurrentRow.Cells[0].Value);
             frm.ShowDialog();
         }
+
+        private void showDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmShowTenatDetails frm = new frmShowTenatDetails((int)dataGridView1.CurrentRow.Cells[0].Value);
+            frm.ShowDialog();    
+        }
     }
 }
