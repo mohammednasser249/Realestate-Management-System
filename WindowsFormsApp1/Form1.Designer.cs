@@ -88,6 +88,7 @@
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(224, 34);
             this.viewToolStripMenuItem.Text = "View ";
+            this.viewToolStripMenuItem.Click += new System.EventHandler(this.viewToolStripMenuItem_Click);
             // 
             // addTenantsToolStripMenuItem
             // 

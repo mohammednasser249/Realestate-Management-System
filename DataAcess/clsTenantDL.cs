@@ -23,6 +23,7 @@ namespace DataAcess
             bool IsFound = false;
 
             SqlCommand cmd = new SqlCommand(qurey, conn);
+            cmd.Parameters.AddWithValue("@TenantID", TenantID);
 
             try
             {
@@ -71,15 +72,15 @@ namespace DataAcess
 
             string query = @"
 INSERT INTO Tenant (
-    TenantID, FirstName, SecondName, ThirdName, LastName,
+     FirstName, SecondName, ThirdName, LastName,
     EmiratesId, EmiratesIssueDate, EmiratesExpDate,
     PassportNo, PassportIssueDate, PassportExpDate,
     Email, Phone, Gender, DateOfBirth, ImagePath, CountryId
 )
 VALUES (
-    @TenantID, @FirstName, @SecondName, @ThirdName, @LastName,
-    @EmiratesId, @EmiratesIssueDate, @EmiratesExpDate,
-    @PassportNo, @PassportIssueDate, @PassportExpDate,
+     @FirstName, @SecondName, @ThirdName, @LastName,
+    @EmiratesId, @EmiratesIDIssueDate, @EmiratesIDExpDate,
+    @PassportNumber, @PassPortIssueDate, @PassportExpDate,
     @Email, @Phone, @Gender, @DateOfBirth, @ImagePath, @CountryId) SELECT SCOPE_IDENTITY() ;";
 
             SqlCommand cmd = new SqlCommand(query, conn);
@@ -130,7 +131,7 @@ VALUES (
             SqlConnection conn = new SqlConnection(clsDataBaseSettings.StringConnection);
             DataTable table = new DataTable();
 
-            string qurey = @"select FullName =T.FirstName+' '+T.LastName+' '+T.ThirdName+' '+T.LastName, T.EmiratesId, T.Phone,T.Email,T.DateOfBirth, C.CountrName,
+            string qurey = @"select T.TenantID,FullName =T.FirstName+' '+T.LastName+' '+T.ThirdName+' '+T.LastName, T.EmiratesId, T.Phone,T.Email,T.DateOfBirth, C.CountryName,
  Gender =
 case 
 	When Gender=1 then 'Male'

@@ -37,5 +37,11 @@ namespace WindowsFormsApp1
             frmAddNewTenant frm = new frmAddNewTenant();
             frm.ShowDialog();
         }
+
+        private void viewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmManageTenants frm = new frmManageTenants();
+            frm.ShowDialog();
+        }
     }
 }

@@ -70,8 +70,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.lbTenantID = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // lbTitle
@@ -157,6 +160,7 @@
             this.llRemove.TabIndex = 34;
             this.llRemove.TabStop = true;
             this.llRemove.Text = "Remove";
+            this.llRemove.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llRemove_LinkClicked);
             // 
             // linkLabel1
             // 
@@ -168,6 +172,7 @@
             this.linkLabel1.TabIndex = 33;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Set Image";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // cbCountry
             // 
@@ -179,10 +184,13 @@
             // 
             // dtDOB
             // 
+            this.dtDOB.CustomFormat = "dd/M/yyyy";
+            this.dtDOB.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtDOB.Location = new System.Drawing.Point(573, 273);
             this.dtDOB.Name = "dtDOB";
             this.dtDOB.Size = new System.Drawing.Size(195, 22);
             this.dtDOB.TabIndex = 31;
+            this.dtDOB.Value = new System.DateTime(2000, 12, 31, 0, 0, 0, 0);
             // 
             // label16
             // 
@@ -211,6 +219,8 @@
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(191, 29);
             this.txtPhone.TabIndex = 28;
+            this.txtPhone.TextChanged += new System.EventHandler(this.txtPhone_TextChanged);
+            this.txtPhone.Validating += new System.ComponentModel.CancelEventHandler(this.txtPhone_Validating);
             // 
             // label14
             // 
@@ -229,6 +239,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(191, 29);
             this.txtEmail.TabIndex = 26;
+            this.txtEmail.Validating += new System.ComponentModel.CancelEventHandler(this.txtEmail_Validating);
             // 
             // rdFemale
             // 
@@ -240,6 +251,7 @@
             this.rdFemale.TabStop = true;
             this.rdFemale.Text = "Female";
             this.rdFemale.UseVisualStyleBackColor = true;
+            this.rdFemale.CheckedChanged += new System.EventHandler(this.rdFemale_CheckedChanged);
             // 
             // rdMale
             // 
@@ -251,6 +263,7 @@
             this.rdMale.TabStop = true;
             this.rdMale.Text = "Male";
             this.rdMale.UseVisualStyleBackColor = true;
+            this.rdMale.CheckedChanged += new System.EventHandler(this.rdMale_CheckedChanged);
             // 
             // pictureBox1
             // 
@@ -261,6 +274,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 23;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label13
             // 
@@ -284,31 +298,43 @@
             // 
             // dtPassportExpDate
             // 
+            this.dtPassportExpDate.CustomFormat = "dd/M/yyyy";
+            this.dtPassportExpDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtPassportExpDate.Location = new System.Drawing.Point(654, 164);
             this.dtPassportExpDate.Name = "dtPassportExpDate";
             this.dtPassportExpDate.Size = new System.Drawing.Size(195, 22);
             this.dtPassportExpDate.TabIndex = 20;
+            this.dtPassportExpDate.Value = new System.DateTime(2000, 12, 31, 0, 0, 0, 0);
             // 
             // dtPassportIssueDate
             // 
+            this.dtPassportIssueDate.CustomFormat = "dd/M/yyyy";
+            this.dtPassportIssueDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtPassportIssueDate.Location = new System.Drawing.Point(434, 163);
             this.dtPassportIssueDate.Name = "dtPassportIssueDate";
             this.dtPassportIssueDate.Size = new System.Drawing.Size(195, 22);
             this.dtPassportIssueDate.TabIndex = 19;
+            this.dtPassportIssueDate.Value = new System.DateTime(2000, 12, 31, 0, 0, 0, 0);
             // 
             // dtEIDExpDate
             // 
+            this.dtEIDExpDate.CustomFormat = "dd/M/yyyy";
+            this.dtEIDExpDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtEIDExpDate.Location = new System.Drawing.Point(654, 106);
             this.dtEIDExpDate.Name = "dtEIDExpDate";
             this.dtEIDExpDate.Size = new System.Drawing.Size(195, 22);
             this.dtEIDExpDate.TabIndex = 18;
+            this.dtEIDExpDate.Value = new System.DateTime(2000, 12, 31, 0, 0, 0, 0);
             // 
             // dtEIDIssueDate
             // 
+            this.dtEIDIssueDate.CustomFormat = "dd/M/yyyy";
+            this.dtEIDIssueDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtEIDIssueDate.Location = new System.Drawing.Point(434, 106);
             this.dtEIDIssueDate.Name = "dtEIDIssueDate";
             this.dtEIDIssueDate.Size = new System.Drawing.Size(195, 22);
             this.dtEIDIssueDate.TabIndex = 17;
+            this.dtEIDIssueDate.Value = new System.DateTime(2000, 12, 31, 0, 0, 0, 0);
             // 
             // txtPassportNO
             // 
@@ -468,18 +494,27 @@
             // lbTenantID
             // 
             this.lbTenantID.AutoSize = true;
-            this.lbTenantID.Font = new System.Drawing.Font("Segoe UI Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTenantID.Location = new System.Drawing.Point(130, 85);
+            this.lbTenantID.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTenantID.Location = new System.Drawing.Point(125, 85);
             this.lbTenantID.Name = "lbTenantID";
-            this.lbTenantID.Size = new System.Drawing.Size(43, 25);
+            this.lbTenantID.Size = new System.Drawing.Size(47, 25);
             this.lbTenantID.TabIndex = 37;
             this.lbTenantID.Text = "N/A";
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // frmAddNewTenant
             // 
             this.AcceptButton = this.btnSave;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.CancelButton = this.btnClose;
             this.ClientSize = new System.Drawing.Size(1230, 611);
             this.Controls.Add(this.lbTenantID);
@@ -493,6 +528,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -540,5 +576,7 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Label lbTenantID;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

@@ -57,7 +57,7 @@ where CountryID=@ID";
 
             string qurey = @"select *
 from Countries
-where CountrName=@CountryName
+where CountryName=@CountryName
 ";
 
             SqlCommand cmd = new SqlCommand(qurey, conn);

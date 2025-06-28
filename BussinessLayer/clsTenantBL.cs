@@ -159,7 +159,7 @@ namespace BussinessLayer
         {
             this.TenantID = clsTenantDL.AddNewTenant(this.FirstName, this.LastName,this.ThirdName,this.LastName,this.EmiratesID,this.EmiratesIDIssueDate,this.EmiratesIDExpDate,this.PassportNumber,this.PassPortIssueDate,this.PassportExpDate,this.Email,this.Phone,this.Gender,this.DateOfBirth,this.ImagePath,this.CountryID);
 
-            return this.TenantID == -1;
+            return this.TenantID != -1;
         }
 
         // Get All Tenants 
