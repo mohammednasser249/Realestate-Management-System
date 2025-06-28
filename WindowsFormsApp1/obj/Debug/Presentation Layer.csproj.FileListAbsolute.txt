@@ -15,3 +15,4 @@ C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj
 C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Tenats.frmManageTenants.resources
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Tenats.UC_Tenant.resources

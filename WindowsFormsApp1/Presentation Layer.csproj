@@ -70,6 +70,12 @@
     <Compile Include="Tenats\frmManageTenants.Designer.cs">
       <DependentUpon>frmManageTenants.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tenats\UC_Tenant.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tenats\UC_Tenant.Designer.cs">
+      <DependentUpon>UC_Tenant.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tenats\frmManageTenants.resx">
       <DependentUpon>frmManageTenants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tenats\UC_Tenant.resx">
+      <DependentUpon>UC_Tenant.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

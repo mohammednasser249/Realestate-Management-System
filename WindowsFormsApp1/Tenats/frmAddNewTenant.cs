@@ -157,7 +157,7 @@ namespace WindowsFormsApp1.Tenats
                 }
 
                 // Filling the back the data from object 
-
+                lbTenantID.Text=_Tenant.TenantID.ToString();
                 txtFirst.Text = _Tenant.FirstName;
                 txtSecond.Text = _Tenant.SecondName;
                 txtThird.Text = _Tenant.ThirdName;
