@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.Buildings;
 using WindowsFormsApp1.Tenats;
 
 namespace WindowsFormsApp1
@@ -41,6 +42,12 @@ namespace WindowsFormsApp1
         private void viewToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmManageTenants frm = new frmManageTenants();
+            frm.ShowDialog();
+        }
+
+        private void addNewBuildingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAddNewBuilding frm = new frmAddNewBuilding();
             frm.ShowDialog();
         }
     }

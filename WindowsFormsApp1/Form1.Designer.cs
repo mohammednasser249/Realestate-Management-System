@@ -45,6 +45,7 @@
             this.viewListOfAllBuildingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.addNewBuildingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.userSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +57,8 @@
             this.testToolStripMenuItem1,
             this.testToolStripMenuItem2,
             this.testToolStripMenuItem3,
-            this.buildingsToolStripMenuItem});
+            this.buildingsToolStripMenuItem,
+            this.userSettingsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1210, 38);
@@ -86,14 +88,14 @@
             // viewToolStripMenuItem
             // 
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            this.viewToolStripMenuItem.Size = new System.Drawing.Size(224, 34);
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(216, 34);
             this.viewToolStripMenuItem.Text = "View ";
             this.viewToolStripMenuItem.Click += new System.EventHandler(this.viewToolStripMenuItem_Click);
             // 
             // addTenantsToolStripMenuItem
             // 
             this.addTenantsToolStripMenuItem.Name = "addTenantsToolStripMenuItem";
-            this.addTenantsToolStripMenuItem.Size = new System.Drawing.Size(224, 34);
+            this.addTenantsToolStripMenuItem.Size = new System.Drawing.Size(216, 34);
             this.addTenantsToolStripMenuItem.Text = "Add tenants";
             this.addTenantsToolStripMenuItem.Click += new System.EventHandler(this.addTenantsToolStripMenuItem_Click);
             // 
@@ -178,6 +180,14 @@
             this.addNewBuildingToolStripMenuItem.Name = "addNewBuildingToolStripMenuItem";
             this.addNewBuildingToolStripMenuItem.Size = new System.Drawing.Size(325, 34);
             this.addNewBuildingToolStripMenuItem.Text = "Add new building";
+            this.addNewBuildingToolStripMenuItem.Click += new System.EventHandler(this.addNewBuildingToolStripMenuItem_Click);
+            // 
+            // userSettingsToolStripMenuItem
+            // 
+            this.userSettingsToolStripMenuItem.Image = global::WindowsFormsApp1.Properties.Resources.Users_2_64;
+            this.userSettingsToolStripMenuItem.Name = "userSettingsToolStripMenuItem";
+            this.userSettingsToolStripMenuItem.Size = new System.Drawing.Size(133, 34);
+            this.userSettingsToolStripMenuItem.Text = "User Settings ";
             // 
             // Form1
             // 
@@ -216,6 +226,7 @@
         private System.Windows.Forms.ToolStripMenuItem viewRentHistoryToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem duesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem renewContractToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem userSettingsToolStripMenuItem;
     }
 }
 
