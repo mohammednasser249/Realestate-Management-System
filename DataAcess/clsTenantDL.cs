@@ -64,6 +64,100 @@ namespace DataAcess
             return IsFound;
         }
 
+        public static bool UpdateTenant( int TenantID ,string FirstName, string SecondName, string ThirdName, string LastName, string EmiratesID, DateTime EmiratesIDIssueDate, DateTime EmiratesIDExpDate, string PassportNumber, DateTime PassPortIssueDate, DateTime PassportExpDate, string Email, string Phone, int Gender, DateTime DateOfBirth, string ImagePath, int CountryID)
+        {
+
+            bool IsUpdated = false;
+
+            SqlConnection conn = new SqlConnection(clsDataBaseSettings.StringConnection);
+
+            string qurey = @" UPDATE Tenant
+                   SET FirstName =@FirstName  , SecondName =@SecondName ,ThirdName =@ThirdName , LastName =@LastName , EmiratesId =@EmiratesID , 
+                   EmiratesIssueDate =@EmiratesIDIssueDate , EmiratesExpDate =@EmiratesIDExpDate , PassportNo =@PassportNumber, PassportIssueDate =@PassPortIssueDate ,
+                   PassportExpDate =@PassportExpDate , Email=@Email , Phone=@Phone , Gender=@Gender, DateOfBirth=@DateOfBirth , ImagePath=@ImagePath, CountryId=@CountryID
+                   WHERE TenantID=@TenantID";
+
+            SqlCommand cmd = new SqlCommand(qurey, conn);
+
+            cmd.Parameters.AddWithValue("@FirstName", FirstName);
+            cmd.Parameters.AddWithValue("@SecondName", SecondName);
+            cmd.Parameters.AddWithValue("@ThirdName", ThirdName);
+            cmd.Parameters.AddWithValue("@LastName", LastName);
+            cmd.Parameters.AddWithValue("@EmiratesID", EmiratesID);
+            cmd.Parameters.AddWithValue("@EmiratesIDIssueDate", EmiratesIDIssueDate);
+            cmd.Parameters.AddWithValue("@EmiratesIDExpDate", EmiratesIDExpDate);
+            cmd.Parameters.AddWithValue("@PassportNumber", PassportNumber);
+            cmd.Parameters.AddWithValue("@PassPortIssueDate", PassPortIssueDate);
+            cmd.Parameters.AddWithValue("@PassportExpDate", PassportExpDate);
+            cmd.Parameters.AddWithValue("@Email", Email);
+            cmd.Parameters.AddWithValue("@Phone", Phone);
+            cmd.Parameters.AddWithValue("@Gender", Gender);
+            cmd.Parameters.AddWithValue("@DateOfBirth", DateOfBirth);
+            cmd.Parameters.AddWithValue("@ImagePath", ImagePath);
+            cmd.Parameters.AddWithValue("@CountryID", CountryID);
+            cmd.Parameters.AddWithValue("@TenantID", TenantID);
+
+
+            try
+            {
+                conn.Open();
+                int rowsaffected = cmd.ExecuteNonQuery();
+                if (rowsaffected > 0)
+                {
+                    IsUpdated = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return IsUpdated;
+
+
+
+        }
+
+        public static bool Delete(int TenantID)
+        {
+
+            bool IsDeleted = false;
+
+            SqlConnection conn = new SqlConnection(clsDataBaseSettings.StringConnection);
+
+            string qurey = @"DELETE FROM Tenant WHERE TenantID =@TenantID";
+
+            SqlCommand cmd = new SqlCommand (qurey, conn);
+
+            cmd.Parameters.AddWithValue("@TenantID", TenantID);
+
+            try
+            {
+                conn.Open();
+
+                int rowsaffected = cmd.ExecuteNonQuery();
+                if (rowsaffected > 0)
+                {
+                    IsDeleted = true;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                conn.Close ();
+            }
+            return IsDeleted;
+        }
+
+
         public static int AddNewTenant(string FirstName, string SecondName, string ThirdName, string LastName, string EmiratesID, DateTime EmiratesIDIssueDate, DateTime EmiratesIDExpDate, string PassportNumber, DateTime PassPortIssueDate, DateTime PassportExpDate, string Email, string Phone, int Gender, DateTime DateOfBirth, string ImagePath, int CountryID)
         {
             int ID = -1;

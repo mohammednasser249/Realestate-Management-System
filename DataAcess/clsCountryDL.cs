@@ -47,8 +47,6 @@ where CountryID=@ID";
             return IsFound;
 
         }
-
-
         public static bool GetCountryInfoByName(string CountryName, ref int ID)
         {
             bool IsFound = false;

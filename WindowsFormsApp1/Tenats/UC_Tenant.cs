@@ -22,7 +22,7 @@ namespace WindowsFormsApp1.Tenats
         {
             get { return _TenantId; }
         }
-        public clsTenantBL Tenant
+        public clsTenantBL SelectedTenantInfo
         {
 
         get { return _Tenant; }
@@ -104,7 +104,7 @@ namespace WindowsFormsApp1.Tenats
             frmAddNewTenant frmAddNewTenant = new frmAddNewTenant(_TenantId);
             frmAddNewTenant.ShowDialog();
 
-            LoadTenantInfo(TenantId);
+            LoadTenantInfo(_TenantId);
         }
     }
 }

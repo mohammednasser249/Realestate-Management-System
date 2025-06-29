@@ -55,7 +55,7 @@ namespace WindowsFormsApp1.Tenats
                     }
                 }
             }
-            if (pictureBox1.ImageLocation != null)
+            if (pictureBox1.ImageLocation !="")
             {
                 string SourceImage = pictureBox1.ImageLocation.ToString();
 
@@ -136,10 +136,6 @@ namespace WindowsFormsApp1.Tenats
                 dtDOB.MaxDate = DateTime.Now.AddDays(-100);
 
                 cbCountry.SelectedIndex = cbCountry.FindString("Sudan");
-
-
-
-
 
 
             }

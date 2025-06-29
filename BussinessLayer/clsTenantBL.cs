@@ -128,7 +128,7 @@ namespace BussinessLayer
             if (found)
             {
                 return new clsTenantBL(TenantID, FirstName, SecondName, ThirdName, LastName, EmiratesID, EmiratesIDIssueDate, EmiratesIDExpDate, PassportNumber, PassPortIssueDate, PassportExpDate, Email, Phone, Gender, DateOfBirth, ImagePath, CountryID);
-             }
+            }
             else
             {
                 return null;
@@ -149,6 +149,22 @@ namespace BussinessLayer
             return clsTenantDL.GetAllTenants();
         }
 
+        // Update 
+
+        private bool _UpdateTenant()
+        {
+            if(clsTenantDL.UpdateTenant(this.TenantID,this.FirstName, this.LastName, this.ThirdName, this.LastName, this.EmiratesID, this.EmiratesIDIssueDate, this.EmiratesIDExpDate, this.PassportNumber, this.PassPortIssueDate, this.PassportExpDate, this.Email, this.Phone, this.Gender, this.DateOfBirth, this.ImagePath, this.CountryID))
+            return true;
+           
+            return false;
+        }
+
+        // Delete 
+
+        public static bool Delete(int TenantID)
+        {
+            return clsTenantDL.Delete(TenantID);
+        }
 
         // Save 
         public bool Save()
@@ -163,6 +179,9 @@ namespace BussinessLayer
                         return true;
                     }
                     break;
+                case enMode.UpdateNew:
+                    return _UpdateTenant();
+
             }
             return false;
         }

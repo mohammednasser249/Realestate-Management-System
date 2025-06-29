@@ -63,7 +63,7 @@ namespace WindowsFormsApp1.Tenats
         {
             get
             {
-                return uC_Tenant1.Tenant;
+                return uC_Tenant1.SelectedTenantInfo;
             }
         }
 
@@ -136,6 +136,18 @@ namespace WindowsFormsApp1.Tenats
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnAddTenant_Click_1(object sender, EventArgs e)
+        {
+            frmAddNewTenant frm = new frmAddNewTenant();
+            frm.DataBack += DataBackEvent; // subscribe to the event 
+            frm.ShowDialog();
+        }
+
+        private void btnSearchTenant_Click(object sender, EventArgs e)
+        {
+            FindNow();
         }
     }
 }

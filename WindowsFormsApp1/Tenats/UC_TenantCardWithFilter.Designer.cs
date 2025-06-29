@@ -68,6 +68,7 @@
             this.btnAddTenant.Size = new System.Drawing.Size(60, 46);
             this.btnAddTenant.TabIndex = 53;
             this.btnAddTenant.UseVisualStyleBackColor = true;
+            this.btnAddTenant.Click += new System.EventHandler(this.btnAddTenant_Click_1);
             // 
             // btnSearchTenant
             // 
@@ -77,6 +78,7 @@
             this.btnSearchTenant.Size = new System.Drawing.Size(60, 46);
             this.btnSearchTenant.TabIndex = 52;
             this.btnSearchTenant.UseVisualStyleBackColor = true;
+            this.btnSearchTenant.Click += new System.EventHandler(this.btnSearchTenant_Click);
             // 
             // txtSearch
             // 
