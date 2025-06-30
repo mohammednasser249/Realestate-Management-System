@@ -240,10 +240,9 @@ where T.CountryId=C.CountryID";
             {
                 conn.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
-                if (reader.HasRows)
-                {
+             
                     table.Load(reader);
-                }
+                
                 reader.Close();
             }
             catch (Exception ex)

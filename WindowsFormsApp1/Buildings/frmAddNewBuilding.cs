@@ -16,7 +16,7 @@ namespace WindowsFormsApp1.Buildings
     {
 
         // Declare a delegate
-        public delegate void DataBackEventHandler(object sender, int PersonID);
+        public delegate void DataBackEventHandler(object sender, int BuildingID);
 
         // Declare an event using the delegate
         public event DataBackEventHandler DataBack;
@@ -54,10 +54,6 @@ namespace WindowsFormsApp1.Buildings
             }
             else
                 lbTitle.Text = "Update Building";
-
-
-
-
         }
 
         private void frmAddNewBuilding_Load(object sender, EventArgs e)
@@ -67,11 +63,22 @@ namespace WindowsFormsApp1.Buildings
 
             if (Mode==enMode.Update)
             {
-                /*
-                 * add the data 
+                Building = clsBuildingBL.Find(BuildingId);
                 _LoadData();
-                */
+                
             }
+        }
+
+        private void _LoadData()
+        {
+
+            txtAddress.Text=Building.Address.ToString();
+            txtCity.Text=Building.City;
+            txtFloors.Text=Building.NumberOfFloors.ToString();
+            txtProperties.Text=Building.NumberOfProperties.ToString();
+            lbTenantID.Text=Building.BuildingID.ToString();
+            txtBuildingName.Text=Building.BuildingName;
+
         }
 
         private void btnSave_Click(object sender, EventArgs e)

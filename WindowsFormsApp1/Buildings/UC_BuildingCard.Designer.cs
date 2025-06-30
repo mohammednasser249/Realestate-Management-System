@@ -37,18 +37,18 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lbBuildingName = new System.Windows.Forms.Label();
+            this.lbAddress = new System.Windows.Forms.Label();
+            this.lbFloors = new System.Windows.Forms.Label();
+            this.lbProperties = new System.Windows.Forms.Label();
+            this.lbC = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(515, 96);
+            this.pictureBox1.Location = new System.Drawing.Point(549, 101);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(237, 257);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -59,7 +59,7 @@
             // 
             this.lbTenantID.AutoSize = true;
             this.lbTenantID.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTenantID.Location = new System.Drawing.Point(175, 34);
+            this.lbTenantID.Location = new System.Drawing.Point(295, 34);
             this.lbTenantID.Name = "lbTenantID";
             this.lbTenantID.Size = new System.Drawing.Size(47, 25);
             this.lbTenantID.TabIndex = 41;
@@ -79,7 +79,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(48, 372);
+            this.label5.Location = new System.Drawing.Point(48, 371);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(233, 28);
             this.label5.TabIndex = 46;
@@ -125,65 +125,70 @@
             this.label3.TabIndex = 42;
             this.label3.Text = "Building Name :";
             // 
-            // label7
+            // lbBuildingName
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(285, 101);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(46, 20);
-            this.label7.TabIndex = 47;
-            this.label7.Text = "[???]";
+            this.lbBuildingName.AutoSize = true;
+            this.lbBuildingName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbBuildingName.ForeColor = System.Drawing.Color.Red;
+            this.lbBuildingName.Location = new System.Drawing.Point(296, 101);
+            this.lbBuildingName.Name = "lbBuildingName";
+            this.lbBuildingName.Size = new System.Drawing.Size(51, 20);
+            this.lbBuildingName.TabIndex = 47;
+            this.lbBuildingName.Text = "[???]";
             // 
-            // label8
+            // lbAddress
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(285, 173);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(46, 20);
-            this.label8.TabIndex = 48;
-            this.label8.Text = "[???]";
+            this.lbAddress.AutoSize = true;
+            this.lbAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAddress.ForeColor = System.Drawing.Color.Red;
+            this.lbAddress.Location = new System.Drawing.Point(296, 173);
+            this.lbAddress.Name = "lbAddress";
+            this.lbAddress.Size = new System.Drawing.Size(51, 20);
+            this.lbAddress.TabIndex = 48;
+            this.lbAddress.Text = "[???]";
             // 
-            // label9
+            // lbFloors
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(285, 234);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(46, 20);
-            this.label9.TabIndex = 49;
-            this.label9.Text = "[???]";
+            this.lbFloors.AutoSize = true;
+            this.lbFloors.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbFloors.ForeColor = System.Drawing.Color.Red;
+            this.lbFloors.Location = new System.Drawing.Point(296, 307);
+            this.lbFloors.Name = "lbFloors";
+            this.lbFloors.Size = new System.Drawing.Size(51, 20);
+            this.lbFloors.TabIndex = 50;
+            this.lbFloors.Text = "[???]";
             // 
-            // label10
+            // lbProperties
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(285, 307);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(46, 20);
-            this.label10.TabIndex = 50;
-            this.label10.Text = "[???]";
+            this.lbProperties.AutoSize = true;
+            this.lbProperties.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProperties.ForeColor = System.Drawing.Color.Red;
+            this.lbProperties.Location = new System.Drawing.Point(296, 379);
+            this.lbProperties.Name = "lbProperties";
+            this.lbProperties.Size = new System.Drawing.Size(51, 20);
+            this.lbProperties.TabIndex = 51;
+            this.lbProperties.Text = "[???]";
             // 
-            // label11
+            // lbC
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(285, 379);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(46, 20);
-            this.label11.TabIndex = 51;
-            this.label11.Text = "[???]";
+            this.lbC.AutoSize = true;
+            this.lbC.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbC.ForeColor = System.Drawing.Color.Red;
+            this.lbC.Location = new System.Drawing.Point(296, 235);
+            this.lbC.Name = "lbC";
+            this.lbC.Size = new System.Drawing.Size(51, 20);
+            this.lbC.TabIndex = 53;
+            this.lbC.Text = "[???]";
             // 
             // UC_BuildingCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lbC);
+            this.Controls.Add(this.lbProperties);
+            this.Controls.Add(this.lbFloors);
+            this.Controls.Add(this.lbAddress);
+            this.Controls.Add(this.lbBuildingName);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -193,7 +198,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox1);
             this.Name = "UC_BuildingCard";
-            this.Size = new System.Drawing.Size(794, 438);
+            this.Size = new System.Drawing.Size(830, 442);
             this.Load += new System.EventHandler(this.UC_BuildingCard_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -211,10 +216,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lbBuildingName;
+        private System.Windows.Forms.Label lbAddress;
+        private System.Windows.Forms.Label lbFloors;
+        private System.Windows.Forms.Label lbProperties;
+        private System.Windows.Forms.Label lbC;
     }
 }

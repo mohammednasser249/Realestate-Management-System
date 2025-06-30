@@ -28,17 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uC_Tenant1 = new WindowsFormsApp1.Tenats.UC_Tenant();
             this.lbTitle = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.uC_Tenant1 = new WindowsFormsApp1.Tenats.UC_Tenant();
             this.SuspendLayout();
-            // 
-            // uC_Tenant1
-            // 
-            this.uC_Tenant1.Location = new System.Drawing.Point(12, 66);
-            this.uC_Tenant1.Name = "uC_Tenant1";
-            this.uC_Tenant1.Size = new System.Drawing.Size(1337, 444);
-            this.uC_Tenant1.TabIndex = 0;
             // 
             // lbTitle
             // 
@@ -62,6 +55,13 @@
             this.button1.Text = "Close";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // uC_Tenant1
+            // 
+            this.uC_Tenant1.Location = new System.Drawing.Point(12, 66);
+            this.uC_Tenant1.Name = "uC_Tenant1";
+            this.uC_Tenant1.Size = new System.Drawing.Size(1337, 444);
+            this.uC_Tenant1.TabIndex = 0;
             // 
             // frmShowTenatDetails
             // 

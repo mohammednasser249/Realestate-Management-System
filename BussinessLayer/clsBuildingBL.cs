@@ -1,6 +1,7 @@
 ﻿using DataAcess;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -50,7 +51,21 @@ namespace BussinessLayer
 
         // Find 
 
+        public static clsBuildingBL Find(int BuildingID)
+        {
+            string buildingname = string.Empty;
+            string address = string.Empty;
+            string city = string.Empty;
+            int numberoffloors = 0;
+            int numberofproperties = 0;
+            int createdbyuser = 0;
 
+            if(clsBuildingDL.GetBuildingInfoByID(BuildingID,ref buildingname,ref address,ref city,ref numberoffloors,ref numberofproperties,ref createdbyuser))
+            {
+                return new clsBuildingBL(BuildingID,buildingname,address,city,numberoffloors,numberofproperties,createdbyuser);
+            }
+            return null;
+        }
 
 
         // Add New Building 
@@ -68,6 +83,12 @@ namespace BussinessLayer
         // Update Building
 
         // GetAllBuildings 
+
+        public static DataTable GetAllBuildings()
+        {
+
+            return clsBuildingDL.GetAllBuildings();
+        }
 
 
         // Save 

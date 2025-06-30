@@ -50,5 +50,11 @@ namespace WindowsFormsApp1
             frmAddNewBuilding frm = new frmAddNewBuilding();
             frm.ShowDialog();
         }
+
+        private void viewListOfAllBuildingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmManageBuildings frm = new frmManageBuildings();
+            frm.ShowDialog();
+        }
     }
 }

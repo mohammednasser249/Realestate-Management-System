@@ -43,6 +43,7 @@ namespace WindowsFormsApp1.Buildings
             if(_Building==null)
             {
                 MessageBox.Show("There is no building with this id ");
+                return;
             }
 
             _FillBuildingInfo();
@@ -52,6 +53,14 @@ namespace WindowsFormsApp1.Buildings
 
         private void _FillBuildingInfo()
         {
+            lbTenantID.Text=Building.BuildingID.ToString();
+            lbBuildingName.Text = Building.BuildingName;
+            lbAddress.Text = Building.City;
+            lbC.Text = Building.Address;
+            lbFloors.Text=Building.NumberOfFloors.ToString();
+            lbProperties.Text=Building.NumberOfProperties.ToString();
+
+
 
         }
 

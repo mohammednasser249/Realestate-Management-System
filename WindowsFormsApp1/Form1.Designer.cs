@@ -169,6 +169,7 @@
             this.viewListOfAllBuildingsToolStripMenuItem.Name = "viewListOfAllBuildingsToolStripMenuItem";
             this.viewListOfAllBuildingsToolStripMenuItem.Size = new System.Drawing.Size(325, 34);
             this.viewListOfAllBuildingsToolStripMenuItem.Text = "View list of all buildings";
+            this.viewListOfAllBuildingsToolStripMenuItem.Click += new System.EventHandler(this.viewListOfAllBuildingsToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 

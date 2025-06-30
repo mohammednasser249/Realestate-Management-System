@@ -20,3 +20,6 @@ C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj
 C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Tenats.frmFindPerson.resources
 C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Tenats.frmShowTenatDetails.resources
 C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Buildings.frmAddNewBuilding.resources
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Buildings.frmManageBuildings.resources
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Buildings.UC_BuildingCard.resources
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Buildings.frmShowBuildingDetails.resources
