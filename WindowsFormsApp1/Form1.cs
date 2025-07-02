@@ -8,16 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Buildings;
+using WindowsFormsApp1.Login;
 using WindowsFormsApp1.Tenats;
 
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        frmLogin _frmLogin;
+
+        public Form1(frmLogin frm)
         {
             InitializeComponent();
+            _frmLogin=frm;
         }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {

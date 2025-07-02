@@ -3,14 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\tenats\\frmmanagetenants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C46C9D-83AE-4EF4-B000-41F3B65F5A90}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\bussinesslayer\\clsuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD5B136C-372D-404F-88D1-23A6E63AA57F}|..\\DataAcess\\DataAcess.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\dataacess\\clsuserdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\global classes\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:global classes\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\login\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:login\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\tenats\\frmmanagetenants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:tenats\\frmmanagetenants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD5B136C-372D-404F-88D1-23A6E63AA57F}|..\\DataAcess\\DataAcess.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\dataacess\\clstenantdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\windowsformsapp1\\buildings\\frmaddnewbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\buildings\\frmaddnewbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:buildings\\frmaddnewbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -83,17 +121,6 @@
       "AbsoluteMoniker": "D:0:0:{F5C46C9D-83AE-4EF4-B000-41F3B65F5A90}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\bussinesslayer\\clsbuildingbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C46C9D-83AE-4EF4-B000-41F3B65F5A90}|..\\BussinessLayer\\BussinessLayer.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\bussinesslayer\\clsuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\buildings\\uc_buildingcard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:buildings\\uc_buildingcard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -116,9 +143,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\tenats\\frmfindperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:tenats\\frmfindperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD5B136C-372D-404F-88D1-23A6E63AA57F}|..\\DataAcess\\DataAcess.csproj|c:\\users\\asus\\desktop\\projects\\realestate management system\\dataacess\\clsuserdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\global classes\\clsvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -161,10 +185,6 @@
       "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:global classes\\clsformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\global classes\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|Presentation Layer.csproj|solutionrelative:global classes\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|WindowsFormsApp1.csproj|C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F6B4A6A0-6371-4B57-8285-5DB2E96C1D91}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -176,11 +196,138 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAvwG8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T14:09:24.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Login\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Login\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Login\\frmLogin.cs",
+              "RelativeToolTip": "Login\\frmLogin.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwCIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T13:51:44.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsUserDL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsUserDL.cs",
+              "RelativeDocumentMoniker": "..\\DataAcess\\clsUserDL.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsUserDL.cs",
+              "RelativeToolTip": "..\\DataAcess\\clsUserDL.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAcwDIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T16:41:36.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "clsGlobal.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsGlobal.cs",
+              "RelativeDocumentMoniker": "Global Classes\\clsGlobal.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsGlobal.cs",
+              "RelativeToolTip": "Global Classes\\clsGlobal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T18:11:59.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Login\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Login\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Login\\frmLogin.cs [Design]",
+              "RelativeToolTip": "Login\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T13:41:38.901Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T16:42:23.293Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwBUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T11:31:16.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsUserBL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\BussinessLayer\\clsUserBL.cs",
+              "RelativeDocumentMoniker": "..\\BussinessLayer\\clsUserBL.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\BussinessLayer\\clsUserBL.cs",
+              "RelativeToolTip": "..\\BussinessLayer\\clsUserBL.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAIwEAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T16:42:02.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Login\\frmLogin.Designer.cs",
+              "RelativeDocumentMoniker": "Login\\frmLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Login\\frmLogin.Designer.cs",
+              "RelativeToolTip": "Login\\frmLogin.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T13:52:36.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "clsTenantDL.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsTenantDL.cs",
+              "RelativeDocumentMoniker": "..\\DataAcess\\clsTenantDL.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsTenantDL.cs",
+              "RelativeToolTip": "..\\DataAcess\\clsTenantDL.cs",
+              "ViewState": "AQIAAOQAAAAAAAAAAAAowPQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T15:54:27.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "frmShowBuildingDetails.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Buildings\\frmShowBuildingDetails.cs",
               "RelativeDocumentMoniker": "Buildings\\frmShowBuildingDetails.cs",
@@ -191,20 +338,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "clsTenantDL.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsTenantDL.cs",
-              "RelativeDocumentMoniker": "..\\DataAcess\\clsTenantDL.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsTenantDL.cs",
-              "RelativeToolTip": "..\\DataAcess\\clsTenantDL.cs",
-              "ViewState": "AQIAAOQAAAAAAAAAAAAowPQAAAAQAAAA",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T15:54:27.717Z",
+              "WhenOpened": "2025-07-02T13:41:46.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "frmAddNewBuilding.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Buildings\\frmAddNewBuilding.cs",
               "RelativeDocumentMoniker": "Buildings\\frmAddNewBuilding.cs",
@@ -212,37 +359,35 @@
               "RelativeToolTip": "Buildings\\frmAddNewBuilding.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAswEcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T17:47:50.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T17:47:50.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "frmAddNewBuilding.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Buildings\\frmAddNewBuilding.cs",
               "RelativeDocumentMoniker": "Buildings\\frmAddNewBuilding.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Buildings\\frmAddNewBuilding.cs [Design]",
               "RelativeToolTip": "Buildings\\frmAddNewBuilding.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T17:38:47.686Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-29T17:38:47.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "frmManageTenants.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmManageTenants.cs",
               "RelativeDocumentMoniker": "Tenats\\frmManageTenants.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmManageTenants.cs",
               "RelativeToolTip": "Tenats\\frmManageTenants.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAA9wB0AAAAAAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T11:30:41.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "frmManageBuildings.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Buildings\\frmManageBuildings.cs",
               "RelativeDocumentMoniker": "Buildings\\frmManageBuildings.cs",
@@ -253,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "UC_BuildingCard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Buildings\\UC_BuildingCard.cs",
               "RelativeDocumentMoniker": "Buildings\\UC_BuildingCard.cs",
@@ -264,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "frmManageBuildings.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Buildings\\frmManageBuildings.cs",
               "RelativeDocumentMoniker": "Buildings\\frmManageBuildings.cs",
@@ -276,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "frmShowBuildingDetails.resx",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Buildings\\frmShowBuildingDetails.resx",
               "RelativeDocumentMoniker": "Buildings\\frmShowBuildingDetails.resx",
@@ -287,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "UC_BuildingCard.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Buildings\\UC_BuildingCard.cs",
               "RelativeDocumentMoniker": "Buildings\\UC_BuildingCard.cs",
@@ -299,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "frmShowBuildingDetails.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Buildings\\frmShowBuildingDetails.cs",
               "RelativeDocumentMoniker": "Buildings\\frmShowBuildingDetails.cs",
@@ -311,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "frmShowTenatDetails.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmShowTenatDetails.cs",
               "RelativeDocumentMoniker": "Tenats\\frmShowTenatDetails.cs",
@@ -322,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "frmShowTenatDetails.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmShowTenatDetails.cs",
               "RelativeDocumentMoniker": "Tenats\\frmShowTenatDetails.cs",
@@ -334,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "UC_Tenant.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\UC_Tenant.cs",
               "RelativeDocumentMoniker": "Tenats\\UC_Tenant.cs",
@@ -345,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "frmManageBuildings.resx",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Buildings\\frmManageBuildings.resx",
               "RelativeDocumentMoniker": "Buildings\\frmManageBuildings.resx",
@@ -356,19 +501,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 25,
               "Title": "frmManageTenants.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmManageTenants.cs",
               "RelativeDocumentMoniker": "Tenats\\frmManageTenants.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmManageTenants.cs [Design]",
               "RelativeToolTip": "Tenats\\frmManageTenants.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T11:24:07.855Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-28T11:24:07.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "clsBuildingDL.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsBuildingDL.cs",
               "RelativeDocumentMoniker": "..\\DataAcess\\clsBuildingDL.cs",
@@ -380,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "clsCountryDL.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsCountryDL.cs",
               "RelativeDocumentMoniker": "..\\DataAcess\\clsCountryDL.cs",
@@ -392,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 28,
               "Title": "frmFindPerson.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmFindPerson.cs",
               "RelativeDocumentMoniker": "Tenats\\frmFindPerson.cs",
@@ -403,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 29,
               "Title": "frmAddNewTenant.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmAddNewTenant.cs",
               "RelativeDocumentMoniker": "Tenats\\frmAddNewTenant.cs",
@@ -414,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
               "Title": "clsBuildingBL.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\BussinessLayer\\clsBuildingBL.cs",
               "RelativeDocumentMoniker": "..\\BussinessLayer\\clsBuildingBL.cs",
@@ -426,42 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T16:42:23.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAcwDgAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T11:31:16.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "clsUserBL.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\BussinessLayer\\clsUserBL.cs",
-              "RelativeDocumentMoniker": "..\\BussinessLayer\\clsUserBL.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\BussinessLayer\\clsUserBL.cs",
-              "RelativeToolTip": "..\\BussinessLayer\\clsUserBL.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAIwEEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T16:42:02.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "UC_BuildingCard.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Buildings\\UC_BuildingCard.Designer.cs",
               "RelativeDocumentMoniker": "Buildings\\UC_BuildingCard.Designer.cs",
@@ -473,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "UC_Tenant.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\UC_Tenant.cs",
               "RelativeDocumentMoniker": "Tenats\\UC_Tenant.cs",
@@ -485,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "frmAddNewTenant.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmAddNewTenant.cs",
               "RelativeDocumentMoniker": "Tenats\\frmAddNewTenant.cs",
@@ -497,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": "frmFindPerson.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmFindPerson.cs",
               "RelativeDocumentMoniker": "Tenats\\frmFindPerson.cs",
@@ -509,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "UC_TenantCardWithFilter.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\UC_TenantCardWithFilter.cs",
               "RelativeDocumentMoniker": "Tenats\\UC_TenantCardWithFilter.cs",
@@ -521,7 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "UC_TenantCardWithFilter.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\UC_TenantCardWithFilter.cs",
               "RelativeDocumentMoniker": "Tenats\\UC_TenantCardWithFilter.cs",
@@ -532,19 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "clsUserDL.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsUserDL.cs",
-              "RelativeDocumentMoniker": "..\\DataAcess\\clsUserDL.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsUserDL.cs",
-              "RelativeToolTip": "..\\DataAcess\\clsUserDL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T16:41:36.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "clsValidation.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsValidation.cs",
               "RelativeDocumentMoniker": "Global Classes\\clsValidation.cs",
@@ -556,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "clsTenantBL.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\BussinessLayer\\clsTenantBL.cs",
               "RelativeDocumentMoniker": "..\\BussinessLayer\\clsTenantBL.cs",
@@ -568,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "CountryBL.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\BussinessLayer\\CountryBL.cs",
               "RelativeDocumentMoniker": "..\\BussinessLayer\\CountryBL.cs",
@@ -580,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "clsUtil.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsUtil.cs",
               "RelativeDocumentMoniker": "Global Classes\\clsUtil.cs",
@@ -592,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "frmManageTenants.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmManageTenants.Designer.cs",
               "RelativeDocumentMoniker": "Tenats\\frmManageTenants.Designer.cs",
@@ -600,12 +697,11 @@
               "RelativeToolTip": "Tenats\\frmManageTenants.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T11:35:40.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T11:35:40.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "frmAddNewTenant.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmAddNewTenant.Designer.cs",
               "RelativeDocumentMoniker": "Tenats\\frmAddNewTenant.Designer.cs",
@@ -617,7 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 43,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -629,7 +725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 44,
               "Title": "Presentation Layer",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Presentation Layer.csproj",
               "RelativeDocumentMoniker": "Presentation Layer.csproj",
@@ -640,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 45,
               "Title": "frmAddNewTenant.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Tenats\\frmAddNewTenant.cs",
               "RelativeDocumentMoniker": "Tenats\\frmAddNewTenant.cs",
@@ -651,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 46,
               "Title": "clsDataBaseSettings.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\DataAcess\\clsDataBaseSettings.cs",
               "RelativeDocumentMoniker": "..\\DataAcess\\clsDataBaseSettings.cs",
@@ -663,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 47,
               "Title": "clsFormat.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsFormat.cs",
               "RelativeDocumentMoniker": "Global Classes\\clsFormat.cs",
@@ -675,19 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "clsGlobal.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsGlobal.cs",
-              "RelativeDocumentMoniker": "Global Classes\\clsGlobal.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Global Classes\\clsGlobal.cs",
-              "RelativeToolTip": "Global Classes\\clsGlobal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T18:11:59.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Projects\\Realestate Management System\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

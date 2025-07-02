@@ -32,7 +32,8 @@ namespace DataAcess
                 if (reader.Read())
                 {
                     userid = (int)reader["UserID"];
-                    isactive = (Boolean)reader["IsActive"];
+                    isactive = Convert.ToBoolean(reader["IsActive"]);
+
                     IsFound = true;
                 }
             }
