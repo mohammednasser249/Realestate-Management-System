@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="clsBuildingDL.cs" />
     <Compile Include="clsCountryDL.cs" />
+    <Compile Include="clsPropertyDL.cs" />
     <Compile Include="clsTenantDL.cs" />
     <Compile Include="clsDataBaseSettings.cs" />
     <Compile Include="clsUserDL.cs" />

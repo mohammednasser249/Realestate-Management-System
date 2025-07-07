@@ -24,3 +24,7 @@ C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj
 C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Buildings.UC_BuildingCard.resources
 C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Buildings.frmShowBuildingDetails.resources
 C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.frmLogin.resources
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Property.UcShowAllProperties.resources
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Property.frmAllProperties.resources
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Property.frmAddNewProperty.resources
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Property.UcShowAllPropertiesWithFilter.resources
