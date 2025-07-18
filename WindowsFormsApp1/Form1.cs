@@ -61,5 +61,12 @@ namespace WindowsFormsApp1
             frmManageBuildings frm = new frmManageBuildings();
             frm.ShowDialog();
         }
+
+        private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+          frmLogin frm = new frmLogin();
+            frm.ShowDialog();
+        }
     }
 }

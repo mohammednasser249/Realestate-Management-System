@@ -46,6 +46,7 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.addNewBuildingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.userSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -185,10 +186,19 @@
             // 
             // userSettingsToolStripMenuItem
             // 
+            this.userSettingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.logOutToolStripMenuItem});
             this.userSettingsToolStripMenuItem.Image = global::WindowsFormsApp1.Properties.Resources.Users_2_64;
             this.userSettingsToolStripMenuItem.Name = "userSettingsToolStripMenuItem";
             this.userSettingsToolStripMenuItem.Size = new System.Drawing.Size(133, 34);
             this.userSettingsToolStripMenuItem.Text = "User Settings ";
+            // 
+            // logOutToolStripMenuItem
+            // 
+            this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.logOutToolStripMenuItem.Text = "Log out";
+            this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -228,6 +238,7 @@
         private System.Windows.Forms.ToolStripMenuItem duesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem renewContractToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem userSettingsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem logOutToolStripMenuItem;
     }
 }
 

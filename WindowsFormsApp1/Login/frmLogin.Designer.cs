@@ -38,6 +38,7 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.cbRemeberMe = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -105,6 +106,7 @@
             this.txtPassword.Location = new System.Drawing.Point(279, 297);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(222, 30);
             this.txtPassword.TabIndex = 6;
             // 
@@ -133,12 +135,23 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
+            // cbRemeberMe
+            // 
+            this.cbRemeberMe.AutoSize = true;
+            this.cbRemeberMe.Location = new System.Drawing.Point(312, 412);
+            this.cbRemeberMe.Name = "cbRemeberMe";
+            this.cbRemeberMe.Size = new System.Drawing.Size(119, 20);
+            this.cbRemeberMe.TabIndex = 9;
+            this.cbRemeberMe.Text = "Remember Me";
+            this.cbRemeberMe.UseVisualStyleBackColor = true;
+            // 
             // frmLogin
             // 
             this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(757, 444);
+            this.Controls.Add(this.cbRemeberMe);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassword);
@@ -152,6 +165,7 @@
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmLogin";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
@@ -170,5 +184,6 @@
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.CheckBox cbRemeberMe;
     }
 }
