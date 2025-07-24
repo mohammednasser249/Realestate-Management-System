@@ -17,20 +17,28 @@ namespace WindowsFormsApp1.Property
             InitializeComponent();
         }
 
+        private int _BuildingID;
+
         private DataTable _GetAllProperties;
 
 
 
-        public void GetAllProperties()
+        public void GetAllProperties(int buildingid)
         {
-            dataGridView1.DataSource = clsPropertyBL.GetAllProperties();
-
+            _BuildingID=buildingid;
+            dataGridView1.DataSource = clsPropertyBL.GetAllProperties(buildingid);
         }
 
         private void UcShowAllProperties_Load(object sender, EventArgs e)
         {
 
 
+        }
+
+        private void editToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAddNewProperty frm = new frmAddNewProperty(_BuildingID, (int)dataGridView1.CurrentRow.Cells[0].Value);
+            frm.ShowDialog();
         }
     }
 }

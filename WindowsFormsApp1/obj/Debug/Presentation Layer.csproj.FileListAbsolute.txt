@@ -28,3 +28,4 @@ C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj
 C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Property.frmAllProperties.resources
 C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Property.frmAddNewProperty.resources
 C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Property.UcShowAllPropertiesWithFilter.resources
+C:\Users\Asus\Desktop\Projects\Realestate Management System\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Property.frmGetAllPropertiesForBuilding.resources

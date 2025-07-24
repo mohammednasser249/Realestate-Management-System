@@ -5,21 +5,45 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using DataAcess;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
 namespace DataAcess
 {
     public class clsPropertyDL
     {
+        public class PropertyDTO
+        {
+            public int PropertyId { get; set; }
+            public string PropertyName { get; set; }
+            public int PropertyType { get; set; }
+            public int NumberOfFloors { get; set; }
+            public int NumberOfRooms { get; set; }
+            public int NumberOfBathrooms { get; set; }
+            public int Area { get; set; }
+            public int RentPrice { get; set; }
+            public DateTime AvailableFrom { get; set; }
+            public bool IsOccupied { get; set; }
+            public string Status { get; set; }
+            public int NumberOfKitchens { get; set; }
+            public string Notes { get; set; }
+            public int BuildingID { get; set; }
+        }
 
-        public static DataTable GetAllProperties()
+
+        public static DataTable GetAllProperties(int BuildingID)
         {
             DataTable dt = new DataTable();
 
             SqlConnection conn = new SqlConnection(clsDataBaseSettings.StringConnection);
 
-            string qurey = "SELECT * FROM Properties";
+            string qurey = @"select *
+from Properties
+where BuidlingID=@BuildingID ";
 
             SqlCommand cmd = new SqlCommand(qurey, conn);
+            cmd.Parameters.AddWithValue("@BuildingID", BuildingID);
 
             try
             {
@@ -88,6 +112,52 @@ namespace DataAcess
 
             return newID;
         }
+
+
+            public static async Task<PropertyDTO> FindAsync(int propertyId)
+            {
+                using (SqlConnection conn = new SqlConnection(clsDataBaseSettings.StringConnection))
+                {
+                    await conn.OpenAsync();
+
+                    string query = "SELECT * FROM Properties WHERE PropertyId=@propertyId";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@propertyId", propertyId);
+
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
+                        {
+                            if (await reader.ReadAsync())
+                            {
+                                var property = new PropertyDTO
+                                {
+                                    PropertyId = propertyId,
+                                    PropertyName = reader["PropertyName"].ToString() ?? "",
+                                    PropertyType = Convert.ToInt32(reader["PropertyType"]),
+                                    NumberOfFloors = Convert.ToInt32(reader["NumberOfFloors"]),
+                                    NumberOfRooms = Convert.ToInt32(reader["NumberOfRooms"]),
+                                    NumberOfBathrooms = Convert.ToInt32(reader["NumberOfBathrooms"]),
+                                    Area = Convert.ToInt32(reader["AreaSqFt"]),
+                                    RentPrice = Convert.ToInt32(reader["RentPrice"]),
+                                    AvailableFrom = Convert.ToDateTime(reader["AvailableFrom"]),
+                                    IsOccupied = Convert.ToBoolean(reader["IsOccupied"]),
+                                    Status = reader["Status"].ToString() ?? "",
+                                    NumberOfKitchens = Convert.ToInt32(reader["NumberOfKitchens"]),
+                                    Notes = reader["Notes"].ToString() ?? "",
+                                    BuildingID = Convert.ToInt32(reader["BuidlingID"])
+                                };
+                                return property;
+                            }
+                            else
+                            {
+                                return null;
+                            }
+                        }
+                    }
+                }
+            }
+
+
 
     }
 }

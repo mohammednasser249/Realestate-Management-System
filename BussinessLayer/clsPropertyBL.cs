@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static DataAcess.clsPropertyDL;
 
 namespace BussinessLayer
 {
@@ -81,9 +82,9 @@ namespace BussinessLayer
 
 
         // Get All properties 
-        public static DataTable GetAllProperties()
+        public static DataTable GetAllProperties(int buildingId)
         {
-            return clsPropertyDL.GetAllProperties();
+            return clsPropertyDL.GetAllProperties(buildingId);
         }
 
         // Add new property 
@@ -93,6 +94,35 @@ namespace BussinessLayer
 
             return this.PropertyId != -1;
         }
+
+
+        // Find 
+
+
+        public static async Task<clsPropertyBL> FindAsync(int propertyId)
+        {
+            var dto = await clsPropertyDL.FindAsync(propertyId);
+            if (dto == null) return null;
+
+            return new clsPropertyBL
+            {
+                PropertyId = dto.PropertyId,
+                PropertyName = dto.PropertyName,
+                PropertyType = (clsPropertyBL.enType)dto.PropertyType,
+                NumberOfFloors = dto.NumberOfFloors,
+                NumberOfRooms = dto.NumberOfRooms,
+                NumberOfBathRooms = dto.NumberOfBathrooms,
+                Area = dto.Area,
+                RentPrice = dto.RentPrice,
+                AvailableFrom = dto.AvailableFrom,
+                IsOccupied = dto.IsOccupied,
+                Status = dto.Status,
+                NumberOfKitchens = dto.NumberOfKitchens,
+                Notes = dto.Notes,
+                BuildingID = dto.BuildingID
+            };
+        }
+
 
 
         // Save function 
@@ -106,6 +136,9 @@ namespace BussinessLayer
                         Mode = enMode.Update;
                         return true;
                     }break;
+
+                case enMode.Update:
+                    return false;
             }
             return false;
 

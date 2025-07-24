@@ -16,5 +16,30 @@ namespace WindowsFormsApp1.Property
         {
             InitializeComponent();
         }
+
+        // Event 
+        public Action<int> OnSearch;
+
+        protected virtual void SearchComplete(int buildingid)
+        {
+            Action<int> handler = OnSearch;
+            if (handler != null)
+            {
+                handler(buildingid);
+            }
+        }
+
+        private void UcShowAllPropertiesWithFilter_Load(object sender, EventArgs e)
+        {
+            ucShowAllProperties1.GetAllProperties(Convert.ToInt32(txtValue.Text));
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            int buildingid = Convert.ToInt32(txtValue.Text);
+
+            if(OnSearch != null)
+                SearchComplete(buildingid);
+        }
     }
 }

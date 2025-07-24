@@ -12,14 +12,25 @@ namespace WindowsFormsApp1.Property
 {
     public partial class frmAllProperties : Form
     {
-        public frmAllProperties()
+        private int _BuldingID;
+        public frmAllProperties(int buldingID)
         {
             InitializeComponent();
+            _BuldingID = buldingID; 
         }
 
         private void frmAllProperties_Load(object sender, EventArgs e)
         {
-            ucShowAllProperties1.GetAllProperties();
+            lbBuildingID.Text = _BuldingID.ToString();
+            ucShowAllProperties1.GetAllProperties(_BuldingID);
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            frmAddNewProperty frm = new frmAddNewProperty(_BuldingID,-1);
+            frm.ShowDialog();
+        }
+
+       
     }
 }

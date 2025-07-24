@@ -99,13 +99,13 @@ namespace WindowsFormsApp1.Buildings
 
         private void editToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmAddNewBuilding frm = new frmAddNewBuilding((int)dataGridView1.CurrentRow.Cells[0].Value);
+            frmAddNewProperty frm = new frmAddNewProperty((int)dataGridView1.CurrentRow.Cells[0].Value,-1);
             frm.ShowDialog();
         }
 
         private void addNewBuildingToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmAllProperties frm = new frmAllProperties();
+            frmAllProperties frm = new frmAllProperties((int)dataGridView1.CurrentRow.Cells[0].Value);
             frm.ShowDialog();
         }
     }

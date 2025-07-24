@@ -30,8 +30,8 @@
         {
             this.ucShowAllProperties1 = new WindowsFormsApp1.Property.UcShowAllProperties();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtValue = new System.Windows.Forms.TextBox();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ucShowAllProperties1
@@ -51,33 +51,35 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Filter By Building ID :";
             // 
-            // textBox1
+            // txtValue
             // 
-            this.textBox1.Location = new System.Drawing.Point(307, 44);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(241, 33);
-            this.textBox1.TabIndex = 2;
+            this.txtValue.Location = new System.Drawing.Point(307, 44);
+            this.txtValue.Multiline = true;
+            this.txtValue.Name = "txtValue";
+            this.txtValue.Size = new System.Drawing.Size(241, 33);
+            this.txtValue.TabIndex = 2;
             // 
-            // button1
+            // btnSearch
             // 
-            this.button1.Location = new System.Drawing.Point(569, 38);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 42);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Search";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSearch.Location = new System.Drawing.Point(569, 38);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(109, 42);
+            this.btnSearch.TabIndex = 3;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // UcShowAllPropertiesWithFilter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.txtValue);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ucShowAllProperties1);
             this.Name = "UcShowAllPropertiesWithFilter";
             this.Size = new System.Drawing.Size(1271, 463);
+            this.Load += new System.EventHandler(this.UcShowAllPropertiesWithFilter_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -87,7 +89,7 @@
 
         private UcShowAllProperties ucShowAllProperties1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtValue;
+        private System.Windows.Forms.Button btnSearch;
     }
 }

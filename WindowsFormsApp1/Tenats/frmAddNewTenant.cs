@@ -59,6 +59,8 @@ namespace WindowsFormsApp1.Tenats
             {
                 string SourceImage = pictureBox1.ImageLocation.ToString();
 
+                
+
                 if (clsUtil.CopyImageToProjectImagesFolder(ref SourceImage))
                 {
                     
@@ -207,8 +209,10 @@ namespace WindowsFormsApp1.Tenats
 
                 }
 
+                /*
             if (!_HandelPersonImage())
                 return;
+                */
 
             int CountryID = clsCountryBL.Find(cbCountry.Text).ID;
 
